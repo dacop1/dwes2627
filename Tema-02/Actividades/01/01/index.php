@@ -1,11 +1,34 @@
 <?php
-echo "<h1>El País</h1>";
 
-echo "<p>
-El País es un periódico español que ofrece información nacional e internacional.<br>
-En su página web podemos encontrar noticias de actualidad, cultura, deportes y economía.<br>
-Puedes consultar todas sus noticias directamente desde su sitio web.
-</p>";
+/*
+Actividad 2.1.1
+    Descripción: uso de variables
+        - Un título
+        - Un párrafo
+        - Un enlace
+    Alumno: Daniel Copete
+    Fecha: 30/09/2026
+*/
 
-echo '<a href="http://www.elpais.es">Visitar El País</a>';
+//Modelo
+//variable include 'model.index.php';
+
+// Negaciado de la aplicación - php
+
+
+
+$titulo = "Mi primera aplicación php";
+
+$parrafo = "Mi primera aplicación php.
+Mi primera aplicación php.
+Mi primera aplicación php.
+Mi primera aplicación php.";
+
+$enlace = "https://elpais.com/";
+
+include 'view.index.php';
+
 ?>
+
+
+<!-- Vista de las aplicaciones del html -->
