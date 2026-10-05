@@ -23,8 +23,30 @@
         <!-- Contenido principal de la aplicación -->
         <main>
             <div class="content">
-            
-            </div>
+
+            <!-- Formulario de la calculadora -->
+             <form method="post">
+                <div class="mb-3">
+                    <label for="Valor1" class="form-label">Valor 1:</label>
+                    <input type="number" step="any" class="form-control" step="0.01" placeholder="0.00" id="Valor1" name="Valor1" required>
+             
+
+                          
+                <div class="mb-3">
+                    <label for="Valor2" class="form-label">Valor 2:</label>
+                    <input type="number" step="any" class="form-control" step="0.01" placeholder="0.00" id="Valor2" name="Valor2" required>
+
+                 <div class="btn-group" role="group"></div>
+                        <button type="reset" class="btn btn-danger">Borrar</button>
+                        <button type="submit" class="btn btn-primary" name="operacion" value="suma" formaction="sumar.php">Sumar</button>
+                        <button type="submit" class="btn btn-primary" name="operacion" value="resta" formaction="restar.php">Restar</button>
+                        <button type="submit" class="btn btn-primary" name="operacion" value="multiplicacion" formaction="multiplicar.php">Multiplicar</button>
+                  </div>
+             </form>
+             
+             <!-- botones de accción -->
+
+
         </main>
 
         <!-- Pie de página de la aplicación -->
