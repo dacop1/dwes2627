@@ -13,4 +13,5 @@ Daniel Copete
 05-10-26
 
 */ 
-
+include 'views/index.view.php';
+?>

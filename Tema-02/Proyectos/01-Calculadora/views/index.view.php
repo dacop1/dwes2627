@@ -16,8 +16,8 @@
 
         <!-- Cabecera de la aplicación -->
         <header class="bg-primary text-white p-3 mb-3">
-            <i class="bi bi-stack"></i> 
-            <span class="fs-6">Título de la aplicación</span>
+            <i class="bi bi-calculator"></i> 
+            <span class="fs-6">Proyecto 2.1- Calculadora</span>
         </header>
 
         <!-- Contenido principal de la aplicación -->
@@ -31,7 +31,7 @@
         <footer class="footer mt-auto py-3 fixed-bottom bg-light">
             <div class="container">
                 <span class="text-muted">&copy;2026
-                    Raúl Bueno - DWES -2º DAW - Curso 26/27
+                    Daniel Copete - DWES -2º DAW - Curso 26/27
                 </span>
             </div>
         </footer>
