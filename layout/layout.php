@@ -4,38 +4,41 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-
-    <!-- css bootstrap básico 5.3.8 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- icons bootstrap 1.13.1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+    <!-- css bootrstrap básico 5.3.8-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!--icons bootstrap básico 5.3.8 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"> 
   </head>
-
   <body>
-    <!-- capa principal de la aplicación -->
+    <!--Capa principal de la aplicación -->
     <div class="container mt-3">
 
-      <!-- CABECERA -->
-      <header class="bg-primary text-white p-3 mb-3">
-        <h1 class="text-center">Hello, world!</h1>
-      </header>
+        <!-- Cabecera de la aplicación -->
+        <header class="bg-primary text-white p-3 mb-3">
+            <i class="bi bi-stack"></i> 
+            <span class="fs-6">Título de la aplicación</span>
+        </header>
 
-      <!-- CUERPO PRINCIPAL -->
-      <main>
-        <div class="p-3 border rounded">
-          <p>Contenido principal de la aplicación.</p>
-        </div>
-      </main>
+        <!-- Contenido principal de la aplicación -->
+        <main>
+            <div class="content">
+            
+            </div>
+        </main>
 
-      <!-- PIE DE PÁGINA -->
-      <footer class="footer mt-auto py-3 bg-light text-center">
-        <span class="text-muted">© 2026 - Mi aplicación Bootstrap</span>
-      </footer>
+        <!-- Pie de página de la aplicación -->
+        <footer class="footer mt-auto py-3 fixed-bottom bg-light">
+            <div class="container">
+                <span class="text-muted">&copy;2026
+                    Raúl Bueno - DWES -2º DAW - Curso 26/27
+                </span>
+            </div>
+        </footer>
+
+        <!-- js bootstrap básico 5.3.8 -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     </div>
-
-    <!-- JS Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
