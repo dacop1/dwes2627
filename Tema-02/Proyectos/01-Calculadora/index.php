@@ -10,7 +10,7 @@
     - división
     - potencia
     - ...
- Alumno: [Nombre del alumno]
+ Alumno: [Daniel Copete]
  Fecha:
  
 */
