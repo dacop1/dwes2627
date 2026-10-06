@@ -20,8 +20,8 @@ Daniel Copete
 
 //Negociado
 //Recoger los valores  del formulario
-$valor1 = $_POST['Valor1'] ?? 0;
-$valor2 = $_POST['Valor2'] ?? 0;
+$valor1 = (float) $_POST['valor1'];
+$valor2 = (float) $_POST['valor2'];
 
 //Realizar la operación de suma
 $resultado = $valor1 + $valor2;

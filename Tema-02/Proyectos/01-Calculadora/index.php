@@ -1,17 +1,21 @@
 <?php
 
 /*
-Proyecto: proyecto2.1 - calculadora básica
-Descripción: Calculadora de operaciones básicas:
-    -suma 
-    -resta 
-    -división
-    -multipicación 
-    -potencia
 
-Daniel Copete
-05-10-26
+ Proyecto: proyecto 2.1 - calculadora básica
+ Descripción: Calculadora de operaciones básicas:
+    - suma
+    - resta
+    - multiplicación
+    - división
+    - potencia
+    - ...
+ Alumno: [Nombre del alumno]
+ Fecha:
+ 
+*/
 
-*/ 
+// Modelo
+
+// Vista
 include 'views/index.view.php';
-?>
