@@ -22,33 +22,67 @@
         </header>
     
         <!-- contenido principal de la aplicación -->
+        <!-- contenido principal de la aplicación -->
         <main>
             <div class="content">
 
             <!-- Formulario de la calculadora -->
             <form>
-                <!-- Campo valor 1 -->
-                <div class="mb-3">
-                    <label for="valor1" class="form-label">Valor 1:</label>
-                    <input type="number" class="form-control" step="0.01" value="<?=  $valor1 ?>" readonly>   
-                </div>
-
-                <!-- Campo valor 2 -->
-                <div class="mb-3">
-                    <label for="valor2" class="form-label">Valor 2:</label>
-                    <input type="number" class="form-control" step="0.01" value="<?=  $valor2 ?>" readonly>   
-                </div>
-
-                <!-- Campo resultado -->
-                <div class="mb-3">
-                    <label for="resultado" class="form-label"><?= $operacion ?></label>
-                    <input type="number" class="form-control" step="0.01" value="<?=  $resultado ?>" readonly>   
-                </div>
-
-                <!-- botones de  acción -->
-                <div class="btn-group" role="group">
-                    <a class="btn btn-warning" href="index.php" role="button">Nuevo Cálculo</a> 
-                </div>
+                <h1>Resultado de la operación</h1>
+                <table class="table table-striped">
+                     <table class="table table-striped">
+                        <tr>
+                            <th colspan="2">
+                                Valores iniciales
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                Velocidad inicial: 
+                            </td>
+                            <td>
+                                <?= number_format($velocidad_inicial, 2, ',', '.') ?> m/s
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ángulo en radianes</td>
+                            <td><?= number_format($angulo_lanzamiento, 2, ',', '.') ?> º</td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                Resultados
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Ángulo Radianes</td>
+                            <td><?= number_format($angulo_radianes, 2, ',', '.') ?> Radianes</td>
+                        </tr>
+                        <tr>
+                            <td>Velocidad inicial X : </td>
+                            <td><?= number_format($velocidad_inicial_horizontal, 2, ',', '.') ?> m/s</td>
+                        </tr>
+                        <tr>
+                            <td>Velocidad inicial Y :</td>
+                            <td><?= number_format($velocidad_inicial_vertical, 2, ',', '.') ?> m/s</td>
+                        </tr>
+                        <tr>
+                            <td>Alcance máximo del proyectil: </td>
+                            <td><?= number_format($distancia_horizontal, 2, ',', '.') ?> m</td>
+                        </tr>
+                        <tr>
+                            <td>Tiempo de vuelo del proyectil: </td>
+                            <td><?= number_format($tiempo_vuelo, 2, ',', '.') ?> s</td>
+                        </tr>
+                        <tr>
+                            <td>Altura máxima del Proyectil :</td>
+                            <td><?= number_format($altura_maxima, 2, ',', '.') ?> m</td>
+                        </tr>
+                    </table>
+                    <div class="btn-group" role="group">
+                        <a class="btn btn-warning" href="index.php" role="button">
+                            Nuevo Cálculo
+                        </a>
+                    </div>
 
             </form>
 

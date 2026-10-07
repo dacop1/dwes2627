@@ -29,16 +29,16 @@
             <form method="post">
                 <!-- Campo velocidad inicial -->
                 <div class="mb-3">
-                    <label for="velocidad_inicial
-                    " class="form-label">Velocidad Inicial:</label>
+                    <label for="velocidad_inicial" class="form-label">Velocidad Inicial:</label>
                     <input type="number" class="form-control" step="0.01" placeholder="0.00" id="velocidad_inicial" name="velocidad_inicial" required>
                     <small class="text-muted">Ingrese la velocidad inicial del proyectil en m/s.</small>   
                 </div>
 
                 <!-- Campo angulo de lanzamiento -->
                 <div class="mb-3">
-                    <label for="angulo_lanzamiento" class="form-label">Ángulo de Lanzamiento:</label>
+                    <label for="angulo_lanzamiento" class="form-label">Ángulo de lanzamiento:</label>
                     <input type="number" class="form-control" step="0.01" placeholder="0.00" id="angulo_lanzamiento" name="angulo_lanzamiento" required>   
+                    <small class="text-muted"> Ángulo en grados</small>
                 </div>
 
                 
@@ -47,7 +47,6 @@
                 <div class="btn-group" role="group">
                     <button type="reset" class="btn btn-danger">Borrar</button>
                     <button type="submit" class="btn btn-warning" name="operacion" value="calcular" formaction="calcular.php">calcular</button>
-                    <button type="submit" class="btn btn-warning" name="operacion" value="restar" formaction="restar.php">Restar</button> 
                 </div>
 
             </form>
