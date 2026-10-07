@@ -10,25 +10,17 @@ Actividad 2.1.1
     Fecha: 30/09/2026
 */
 
-//Modelo
-//variable include 'model.index.php';
+// Modelo
 
-// Negaciado de la aplicación - php
+$titulo = "Mi primera aplicación PHP";
 
+$parrafo = "Mi primera aplicación PHP.
+Mi primera aplicación PHP.
+Mi primera aplicación PHP.
+Mi primera aplicación PHP.";
 
-
-$titulo = "Mi primera aplicación php";
-
-$parrafo = "Mi primera aplicación php.
-Mi primera aplicación php.
-Mi primera aplicación php.
-Mi primera aplicación php.";
-
-$enlace = "https://elpais.com/";
+$enlace = "http://www.elpais.es";
 
 include 'view.index.php';
 
 ?>
-
-
-<!-- Vista de las aplicaciones del html -->

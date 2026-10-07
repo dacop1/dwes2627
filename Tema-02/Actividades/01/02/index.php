@@ -1,4 +1,5 @@
 <?php
+
 echo "<h1>El País</h1>";
 
 echo "<p>
@@ -10,4 +11,6 @@ Puedes consultar todas sus noticias directamente desde su sitio web.
 echo '<img src="noticia.jpg" alt="Imagen relacionada con la noticia" width="500">';
 
 echo '<p><a href="http://www.elpais.es">Visitar El País</a></p>';
+
 ?>
+

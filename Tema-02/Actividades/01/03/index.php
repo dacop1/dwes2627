@@ -1,10 +1,10 @@
 <?php
 
-$nombre = "Juan";
-$apellido = "García";
+$nombre = "Juan";          // String
+$apellido = "García";      // String
 
-$nombreCompleto = $nombre . " " . $apellido;
+$nombreCompleto = $nombre . " " . $apellido;  // Concatenación
 
-echo $nombreCompleto;
+echo $nombreCompleto;      // Mostrar resultado
 
 ?>

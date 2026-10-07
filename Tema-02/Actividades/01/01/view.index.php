@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,11 +11,10 @@
     <h1><?php echo $titulo; ?></h1>
 
     <!-- Párrafo generado desde PHP -->
-    <p><?php echo ($parrafo); ?></p>
+    <p><?php echo $parrafo; ?></p>
 
     <!-- Enlace generado desde PHP -->
-    <a href="<?php echo $enlace; ?>>Visitar El País</a>
+    <a href="<?php echo $enlace; ?>">Visitar El País</a>
 
 </body>
 </html>
-
