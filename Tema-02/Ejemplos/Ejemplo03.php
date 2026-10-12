@@ -1,23 +1,24 @@
 <?php
-    $nombre = "Daniel";
-    $apellidos = "Copete";
-    $edad = 18;
-    $poblacion = "prado del rey";
+    $nombre = "Juan";
+    $apellidos = "Pérez López";
+    $edad = 30;
+    $poblacion = "Madrid";
 ?>
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ficha de Alumnos</title>
+    <title>Hola Mundo</title>
 </head>
 <body>
-    <h1>Ficha de Alumnos</h1>
-    <!-- muestro los detalles del alumno ( comentariocreado con control+ ç) -->
-    <p>Nombre: <?php echo $nombre; ?></p>
-    <p>Apellidos: <?php echo $apellidos; ?></p>
-    <p>Edad: <?php echo $edad; ?></p>
-    <p>Población: <?php echo $poblacion; ?></p>
+    <h1>Ficha de alumnos</h1>
+    <?php
+        // Mostar los valores de la variable en HTML
+        echo "<b>Nombre:</b> ". $nombre . "<br>";
+        echo "<b>Apellidos:</b> ". $apellidos . "<br>";
+        echo "<b>Edad:</b> ". $edad . "<br>";
+        echo "<b>Población:</b> ". $poblacion . "<br>";
+    ?>
 </body>
 </html>

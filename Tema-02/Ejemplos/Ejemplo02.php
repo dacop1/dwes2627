@@ -11,11 +11,14 @@
     <title>Hola Mundo</title>
 </head>
 <body>
-    <h1>Hola Mundo PHP</h1>
+    <h1>Hola, Mundo!</h1>
     <?php
         // Este es un comentario en PHP
-        echo "<p>Hola desde PHP</p>";
+
+        /*
+            Este es un comentario de varias líneas en PHP
+        */
+        echo "<p>Hola mundo desde PHP</p>";
     ?>
-    
 </body>
 </html>

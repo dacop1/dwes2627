@@ -1,23 +1,17 @@
 <?php
 
-$var = null;
+// Asigna el valor nula a la variable
+//$var = 1;
+// Cuando la variable no haya sido definida
 
-$var2=(int) $var;
+// Cuando esté definida sin un valor asignado
+// Cuando la variable se ha eliminado con unset()
 
-echo"El valor :  $var2 de tipo" . gettype($var2). "<br>";
+$var = 23;
+unset($var);
 
-
-$var3=(bool) $var;
-
-echo"El valor :  $var2 de tipo" . gettype($var3). "<br>";
-
-
-$var4=(string) $var;
-
-echo"El valor :  $var2 de tipo" . gettype($var4). "<br>";
-
-
-
-$var5=(float) $var;
-
-echo"El valor :  $var5 de tipo" . gettype($var5). "<br>";
+if (is_null($var)) {
+    echo "La variable es nula<br>";
+} else {
+    echo "La variable no es nula<br>";
+}
