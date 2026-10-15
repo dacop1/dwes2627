@@ -1,23 +1,14 @@
-<?php 
+<?php
 
-if (nota<0){
+if (nota < 0) {
     echo "Nota no válida";
-}
-else if (nota<5)
-{
+} else if (nota < 5) {
     echo "Suspenso";
-}
-else if (nota<7)
-{
+} else if (nota < 7) {
     echo "Aprobado";
-}
-else if (nota<9)
-{
+} else if (nota < 9) {
     echo "Notable";
-}
-else
-{
+} else {
     echo "Sobresaliente";
 }
-
 ?>
