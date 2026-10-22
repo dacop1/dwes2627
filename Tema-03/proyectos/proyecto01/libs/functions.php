@@ -6,15 +6,14 @@ funciones auxiliares para el proyecto
 funciones incluidas:
 
 */ 
-
 function get_libros(){
     $libros = [
-        [   
+        [
             'id' => 1,
             'titulo' => 'El Quijote',
             'autor' => 'Miguel de Cervantes',
             'editorial' => 'Francisco de Robles',
-            'genero' => ['Realismo mágico','Novela'],
+            'generos' => ['Realismo mágico', 'Novela'],
             'precio' => 19.99,
         ],
         [
@@ -22,7 +21,7 @@ function get_libros(){
             'titulo' => 'Cien años de soledad',
             'autor' => 'Gabriel García Márquez',
             'editorial' => 'Editorial Sudamericana',
-            'genero' => ['Realismo mágico','Ficción'],
+            'generos' => ['Realismo mágico', 'Ficción'],
             'precio' => 24.99
         ],
         [
@@ -30,10 +29,11 @@ function get_libros(){
             'titulo' => '1984',
             'autor' => 'George Orwell',
             'editorial' => 'Secker and Warburg',
-            'genero' => ['Distopía','Ficción'],
+            'generos' => ['Distopía', 'Ficción'],
             'precio' => 15.99
         ]
     ];
+
     return $libros;
 }
 ?>
