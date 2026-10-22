@@ -30,7 +30,7 @@
             <div class="content">
 
                 <legend>Formulario nuevo libro</legend>
-                <form>
+                <form action="create.php" method="POST">
                     <div class="mb-3">
                         <label for="titulo" class="form-label">Título:</label>
                         <input type="text" class="form-control" id="titulo" name="titulo" required>
