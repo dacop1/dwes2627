@@ -10,10 +10,10 @@ function get_libros(){
     $libros = [
         [
             'id' => 1,
-            'titulo' => 'El Quijote',
-            'autor' => 'Miguel de Cervantes',
+            'descripcion' => 'Teclado mecanico',
+            'modelo' => 'Teck',
             'editorial' => 'Francisco de Robles',
-            'generos' => ['Realismo mágico', 'Novela'],
+            'categorias' => ['Realismo mágico', 'Novela'],
             'precio' => 19.99,
         ],
         [
