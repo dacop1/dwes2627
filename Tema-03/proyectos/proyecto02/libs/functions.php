@@ -38,6 +38,11 @@ function get_libros(){
 }
 
 
+//Funcion generar_tabla_categorias
+function generar_tabla_categorias()
+{
+    return ['El Quijote', 'Cien años de soledad', '1984' ];
+}
 
 function obtener_id_nuevo_libro($libros = []){
     $ultimo_libro = end($libros);
