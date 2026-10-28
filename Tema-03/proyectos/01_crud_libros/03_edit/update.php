@@ -6,7 +6,7 @@
  * permite editar un libro existente en la tabla de libros
  *
  * @package    CRUD Libros
- * @author     Tu Nombre
+ * @author     Daniel Copete Jiménez
  * @version    1.0
  * 
  * Tabla  libros:
@@ -63,6 +63,5 @@ $libros[$indice] = $edit_book;
 
 // Cargo la vista de edición con los detalles del libro a editar
 require_once 'views/edit.view.php';
-
 
 

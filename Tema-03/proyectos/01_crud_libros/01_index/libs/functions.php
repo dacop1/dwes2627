@@ -6,7 +6,6 @@
 
     Funciones incluidas:
         - get_libros(): Devuelve un array con todos los libros creados.
-        - obtener_id_nuevo_libro($libros): Devuelve el id del nuevo libro creado.
 */
 
 // Función get_libros(): Devuelve un array con todos los libros creados.
@@ -56,17 +55,4 @@ function get_libros() {
     ];
 
     return $libros;
-}
-
-// Función obtener_id_nuevo_libro($libros): Devuelve el id del nuevo libro creado.
-
-function obtener_id_nuevo_libro($libros = []) {
-    // Obtener el último libro del array
-    $ultimo_libro = end($libros);
-
-    // Obtener el id del último libro
-    $ultimo_id = $ultimo_libro['id'];
-
-    // Devolver el id del nuevo libro (último id + 1)
-    return $ultimo_id + 1;
 }

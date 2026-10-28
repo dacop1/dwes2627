@@ -7,7 +7,7 @@
  * Muestra una lista de libros y permite agregar, editar y eliminar libros.
  *
  * @package    CRUD Libros
- * @author     Tu Nombre
+ * @author     Daniel Copete Jiménez
  * @version    1.0
  * 
  * Tabla  libros:
@@ -30,5 +30,4 @@ $libros = get_libros();
 
 // Views
 include 'views/index.view.php';
-
 

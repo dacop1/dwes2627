@@ -6,7 +6,7 @@
  * permite crear un nuevo libro a partir de los datos enviados desde el formulario.
  *
  * @package    CRUD Libros
- * @author     Tu Nombre
+ * @author     Daniel Copete Jiménez
  * @version    1.0
  * 
  * Tabla  libros:
@@ -58,5 +58,4 @@ $libros[] = $new_book;
 
 // Views
 include 'views/index.view.php';
-
 
