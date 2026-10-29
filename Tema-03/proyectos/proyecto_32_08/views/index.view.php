@@ -30,8 +30,19 @@
 
 
           <legend>Tabla de libros</legend>
-
+<!-- Aqui es para mostrar los articulos en pantalla  -->
           <table class="table">
+
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col" class="text-end"></th>
+            </tr>
+          </thead>
             <tbody>
               <?php foreach ($articulos as $articulo): ?>
                 <tr>
