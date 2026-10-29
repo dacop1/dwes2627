@@ -15,7 +15,7 @@ function get_articulos() {
             "id" => 2,
             "descripcion" => "Cámara digital",
             "modelo" => "Canon EOS R50",
-            "categorias" => ["fotografía"],
+            "categorias" => ["telefonía","fotografía"],
             "unidades" => 8,
             "precio" => 849.99
         ],

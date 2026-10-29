@@ -24,32 +24,30 @@
       <span class="fs-6">Titulo de la aplicación</span>
     </header>
 
-    <! -- contenido principal de la aplicacion -- >
+    <! -- contenido principal de la aplicacion -->
       <main>
         <div class="content">
 
 
-        <legend>Tabla de libros</legend>
+          <legend>Tabla de libros</legend>
 
-        <table class="table">
-          <thead>
-            <tr>
-              <th scope="col">id</th>
-              <th scope="col">descripcion</th>
-              <th scope="col">modelo</th>
-              <th scope="col">categorias</th>
-              <th scope="col">unidades</th>
-              <th scope="col">precio</th>
-            </tr>
+          <table class="table">
+            <tbody>
+              <?php foreach ($articulos as $articulo): ?>
+                <tr>
+                  <th scope="row" class="text-end"><?= $articulo['id'] ?></th>
+                  <td><?= $articulo['descripcion'] ?></td>
+                  <td><?= $articulo['modelo'] ?></td>
+                  <td><?= implode(', ', $articulo['categorias']) ?></td>
+                  <td><?= $articulo['unidades'] ?></td>
+                  <td><?= $articulo['precio'] ?></td>
+                </tr>
+              <?php endforeach; ?>
+            </tbody>
+          </table>
           </thead>
 
-          <tbody>
-            <th scope="row" class="text-end"><?= $Articulo['id'] ?></th>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tbody>
-        </table>
+
 
         </div>
       </main>
