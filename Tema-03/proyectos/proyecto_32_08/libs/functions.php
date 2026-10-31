@@ -33,6 +33,17 @@ function get_articulos() {
     return $Articulos;
 }
 
+function obtener_id_nuevo_articulo($Articulos = []){
+
+//obtener el último libro del arry
+$ultimo_articulo = end($Articulos);
+
+//obtener el ultimo id del último libro
+$ultimo_id = $ultimo_articulo['id'];
+
+
+return $ultimo_articulo + 1;
+}
 
 
 ?>

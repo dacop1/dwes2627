@@ -35,12 +35,12 @@
 
           <thead>
             <tr>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col"></th>
-              <th scope="col" class="text-end"></th>
+              <th scope="col">ID</th>
+              <th scope="col">Descripción</th>
+              <th scope="col">Modelo</th>
+              <th scope="col">Categorías</th>
+              <th scope="col">Unidades</th>
+              <th scope="col" class="text-end">Precio</th>
             </tr>
           </thead>
             <tbody>
@@ -57,6 +57,13 @@
             </tbody>
           </table>
           </thead>
+
+
+
+
+
+
+
 
 
 
