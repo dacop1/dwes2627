@@ -38,5 +38,3 @@ unset($articulos[$indice]);
 
 // Cargo la vista de inicio 
 require_once 'views/index.view.php';
-
-
