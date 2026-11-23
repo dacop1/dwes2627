@@ -2,7 +2,7 @@
 
 /*
     fichero: Alumnos.php
-    @autor: Raúl Bueno García
+    @autor: Daniel Copete Jimenez
     @fecha: 
     @proyecto: proyecto43
 */
