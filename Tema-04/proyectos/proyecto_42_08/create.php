@@ -20,7 +20,7 @@ $precio = $_POST['precio']?? null;
 // Validación no se  hace
 
 // Generar id del nuevo artículo
-$id = 6; // En un caso real, se generaría automáticamente
+$id = 7; // En un caso real, se generaría automáticamente
 
 // Creamos un nuevo artículo de la clase Articulo
 $articulo = new Articulo(
@@ -47,7 +47,7 @@ $marcas = Tarticulos::getMarcas();
 $categorias = Tarticulos::getCategorias();
 
 // Cargamos la tabla de artículos
-$articulos = $tabla_articulos->getTarticulos();
+$articulos = $tabla_articulos->tarticulos;
 
 // Cargamos la vista principal de la aplicación
 require_once __DIR__ . '/views/index.view.php';

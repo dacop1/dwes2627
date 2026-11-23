@@ -26,7 +26,6 @@ class Tarticulos
         $this->tarticulos = [];
     }
 
-   
 
     /*
         Método getMarcas()

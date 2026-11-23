@@ -31,7 +31,7 @@ $indice = $tabla_articulos->getIndiceById($id);
 $tabla_articulos->delete($indice);
 
 // 6. Cargo la tabla de artículos actualizada
-$articulos = $tabla_articulos->getTarticulos();
+$articulos = $tabla_articulos->tarticulos;
 
 // 5. Cargar las marcas y categorías para el formulario
 $marcas = Tarticulos::getMarcas();

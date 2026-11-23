@@ -23,18 +23,18 @@
  * 
  * @métodos:
  *  - constructor: parámetros opcionales
- *  - getters y setters
+ * 
  */
 
 Class Articulo {
 
-     public ?int $id;
-     public ?string  $descripcion;
-     public ?string $modelo;
-     public ?string $marca;
-     public ?array $categorias;
-     public ?int $unidades;
-     public ?float $precio;
+    public ?int $id;
+    public ?string  $descripcion;
+    public ?string $modelo;
+    public ?string $marca;
+    public ?array $categorias;
+    public ?int $unidades;
+    public ?float $precio;
 
     // Método constructor con encapsulamiento
     public function __construct(
@@ -55,7 +55,6 @@ Class Articulo {
         $this->precio = $precio;
     }
 
-    
 }
 
 

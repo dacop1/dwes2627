@@ -2,27 +2,18 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Proyecto 4.1 - CRUD Artículos - POO Encapsulamiento</title>
-
-    <!-- css bootstrap 6.0 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
-
-
-    <!-- icons bootstrap 1.13.2 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+    <!-- Cargar HEAD de la página -->
+    <?php require_once __DIR__ . '/layouts/head.layout.php'; ?>
+    <title>Proyecto 4.2 - CRUD Artículos - POO Sin Encapsulamiento</title>
 </head>
 
 <body>
     <!-- capa principal de la aplicación -->
     <div class="container mt-3">
 
-        <!-- cabecera de la aplicación -->
-        <header class="bg-primary text-white p-3 mb-3">
-            <i class="bi bi-stack"></i>
-            <span class="fs-6">Proyecto 4.1 - CRUD Artículos - POO Encapsulamiento</span>
-        </header>
+        <!-- cabecera HEADER de la aplicación -->
+        <?php require_once __DIR__ . '/partials/header.partial.php'; ?>
+
 
         <!-- contenido principal de la aplicación -->
         <main>
@@ -59,8 +50,6 @@
                             <?php endforeach; ?>
                         </div>
                     </div>
-                    <!-- Marca -->
-
                     <!-- unidades -->
                     <div class="mb-3">
                         <label for="unidades" class="form-label">Unidades:</label>
@@ -97,16 +86,11 @@
         </main>
 
         <!-- pie de página de la aplicación -->
-        <footer class="footer mt-auto py-3 fixed-bottom bg-light">
-            <div class="container">
-                <span class="text-muted">&copy; 2026
-                    Juan Carlos Moreno - DWES - 2º DAW - Curso 26/27
-                </span>
-            </div>
-        </footer>
+        <?php require_once __DIR__ . '/partials/footer.partial.php'; ?>
+
 
         <!-- js bootstrap básico 6.0 -->
-        <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+        <?php require_once __DIR__ . '/layouts/js_bootstrap.php'; ?>
 
     </div>
 </body>
